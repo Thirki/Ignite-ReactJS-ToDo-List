@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# Ignite ToDo List
+<p align="center">
+  <img height="300px" src="https://user-images.githubusercontent.com/69635807/161143745-b903e782-9112-4fb0-8d6e-e92fee95f525.png">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Todo List](https://github.com/Thirki/Ignite-ReactJS-ToDo-List/assets/69635807/01e6439a-9608-4447-86eb-fe8909a9d295)
 
-Currently, two official plugins are available:
+# 📰 About the project #
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a to-do list application developed as part of the ReactJS challenge in Rocketseat's Ignite track. The application allows adding tasks, marking tasks as completed, unmarking tasks, and removing tasks, as well as showing the progress of task completion.
 
-## Expanding the ESLint configuration
+# 📁 Technologies #
+This project was developed using the following technologies:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* react
+* styled-components
+* eslint
+* typescript
 
-- Configure the top-level `parserOptions` property like this:
+# 🎬 Getting started #
+**Clone the project and access the folder**
+~~~
+$ git clone git@github.com:Thirki/Ignite-ReactJS-ToDo-List.git && cd Ignite-ReactJS-ToDo-List
+~~~
+**Follow the steps below**
+~~~
+# Install the dependencies
+$ npm install
+~~~
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+~~~
+# Run the project
+$ npm run dev
+~~~
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+~~~
+The app will be available for access on your browser at http://localhost:3000
+~~~
+
+### 🌐 Follow me ###
+Code with 💜 by me!, [Thirki/Henrique](https://www.linkedin.com/in/thirki/)
